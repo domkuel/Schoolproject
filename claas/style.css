@@ -1,0 +1,24 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: lightgreen;
+
+}
+
+header h1{
+    font-size: 4rem;
+    color: red;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

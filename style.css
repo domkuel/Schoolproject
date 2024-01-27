@@ -1,7 +1,53 @@
-header{
+header {
     display: flex;
     justify-content: center;
 }
-header h1{
-    color: red;
+html,body{
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: #007cf6;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+
+main a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #505050;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+main button{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 2rem;
 }
