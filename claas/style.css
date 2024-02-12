@@ -1,24 +1,39 @@
-body, html{
+body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     display: flex;
-    justify-content: center;
-    background: lightgreen;
-
+    justify-content: flex-start;
+    padding-left: 2rem;
+    background: #f8dfdf;
 }
 
-header h1{
+
+header h1 {
     font-size: 4rem;
     color: red;
 }
 
-main{
-    display:flex;
+main {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.textblock {
+    margin-top: 2rem;
+    width: 70%;
+    word-break: break-word;
+    background-color: lightgrey;
+    border-radius: .4rem;
+    padding: 0.25rem 1rem 1rem;
+
+}
+
+.textblock h2 {
+    text-decoration: underline;
 }
